@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const LoginPage = () => {
   return (
@@ -42,7 +43,9 @@ const LoginPage = () => {
           </div>
           <div>
             <span>have a problem ?</span>
-            <span className="underline cursor-pointer">contact us</span>
+            <Link href="/contact" className="underline cursor-pointer">
+              contact us
+            </Link>
           </div>
         </div>
       </div>
